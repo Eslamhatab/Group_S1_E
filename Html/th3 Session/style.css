@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-2{
+    border: 2px solid;
+    margin: 0 auto;
+    width: 25%;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.second-table{
+    width: 50%;
+    margin: 0 auto;
+    border: darkblue solid;
+    margin-bottom: 20px;
+}
+
+.th-2 , .td-2 {
+    padding: 0.5rem;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+.tr-2:nth-child(odd){
+    background-color: rgb(125, 125, 145);
+}
+
+
+.third-table{
+    margin: 0 auto;
+    width: 50%;
+    border:darkred solid;
+}
+
+.tr-3 , .td-3{
+    padding: 0.5rem;
+text-align: left;
+border-bottom: salmon solid;
+}
+
+.tr-3:nth-child(odd){
+    background-color: rgb(125, 125, 145);
+}
+
+.th-3{
+    background-color: antiquewhite;
+}

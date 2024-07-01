@@ -1,0 +1,126 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+    /* Start Body */
+body{
+    font-family: Arial, sans-serif;
+}
+/* End Body */
+/* End Header Element */
+header{
+    /* display: flex; */
+    width: 100%;
+    /* background-color: rgb(57, 61, 61); */
+}
+.mark-container{
+text-align: center;
+font-size: 1.8rem;
+}
+.mark{
+    background-color: rgb(53, 51, 49);
+    font-style: italic;
+}
+.head{
+    height: auto;
+    background-color: rgb(51, 43, 43);
+    display: flex;
+    justify-content:space-around;
+    margin: 5px 0 5px 0;
+}
+.social-link{
+    color: antiquewhite;
+    text-decoration: none;
+    padding-right: 2px;
+}
+
+.brand-whatsapp{
+    background-color: rgb(88, 160, 88);
+    font-size: 1.5rem;
+    box-shadow: 16px;
+    border-radius: 3px;
+    box-sizing: content-box;
+    transition: color 3s ease-in-out;
+}
+
+.brand-whatsapp:hover{
+    color: rgba(30, 255, 0, 0.411);
+    padding: 3px;
+    border-radius:10px;
+}
+    .brand-fb{
+        background-color:#106AFF;
+        font-size: 1.5rem;
+        box-shadow: 16px;
+        border-radius: 2px;
+        box-sizing: content-box;
+        transition: color 3s ease-in-out;
+    }
+
+    .brand-fb:hover{
+        color: rgba(8, 80, 181, 0.411);
+        padding: 3px;
+        border-radius: 10px;
+    }
+
+    .brand-insta{
+        background-color:#BE3671;
+        font-size: 1.5rem;
+        box-shadow: 16px;
+        border-radius: 2px;
+        box-sizing: content-box;
+        transition: color 3s ease-in-out;
+    }
+.brand-insta:hover{
+    color:#be3671c1;
+    padding: 3px;
+    border-radius:10px;
+}
+    /* .brand-linked{
+        
+    }
+.brand-linked:hover{
+
+} */
+/* End Header Element */
+
+/* Start Navbar */
+.nav-bar{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 20px;
+    padding: 0 20px;
+}
+.logo{
+    font-size: 1.5rem;
+    margin: 0;
+}
+.nav-items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:flex ;
+}
+.nav-items ul li{
+    margin: 0 15px;
+}
+.nav-items ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 1s;
+}
+.nav-items ul li a:hover{
+    background-color: #555;
+    border-radius: 5px;
+}
+/* End Navbar */
+

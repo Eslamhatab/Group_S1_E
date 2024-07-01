@@ -1,0 +1,70 @@
+/* Libr */
+:root{
+    --primary-color:#727272;
+    --secondary-color:#1ABC9C;
+    --main-size:font-family:'Lato',sans-serif;
+}
+/* Custom Browser */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+    /*Start Style Body */
+body{
+    font-family: var(--main-size);
+}
+    /* End Body */
+/*Start Style All Links */
+a{
+    text-decoration: none ;
+    font-size: 1.3rem ;
+    color:rgb(255, 255, 255) ;
+}
+/* End Links */
+/*Start Unorderd List Style  */
+ul{
+    list-style: none;
+}
+/* End Style */
+
+/* Start Navbar */
+.container{
+    margin-top: 30px;
+}
+.navbar{
+    background-color: var(--primary-color);
+    width: 75%;
+    margin: 0 auto;
+
+}
+.navbar .navbar-container{
+    height: 80px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+.navbar .navbar-container .navbar-items ul li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.8rem;
+}
+.navbar .navbar-container .navbar-brand a{
+    font-size: 1.8rem;
+    transition: color 5s ease-in-out;
+}
+
+.navbar .navbar-container .navbar-brand a:hover{
+    color: blue;
+}
+.navbar .navbar-container .navbar-items ul li a{
+    font-style: unset;
+    transition: all 1.2s ease-in-out;
+    }
+
+    .navbar .navbar-container .navbar-items ul li a:hover{
+        background-color: var(--secondary-color);
+        padding: 10px;
+        border-radius: 20px;
+    }
