@@ -1,0 +1,114 @@
+:root{
+    --primary-color:#2C3E50;
+    --secondry-color:#1ABC9C;
+    --min-size:font-family:'Lato', sans-serif;
+}
+
+/* Reset */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* global Style */
+body{
+    font-family: var(--min-size);
+}
+
+/* Navbar Style */
+ul , li{
+    list-style: none;
+}
+a{
+    color: azure;
+    text-decoration: none;
+    font-size: 22px;
+}
+.navbar{
+    background-color: var(--primary-color);
+}
+
+.navbar .navbar-container{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar .navbar-container .navbar-items ul li {
+    display: inline-block;
+    font-size: 1.8rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.navbar .navbar-container .navbar-brand a{
+    font-size: 1.8rem;
+    transition: color 2s ease-in-out;
+}
+.navbar .navbar-container .navbar-brand a:hover{
+    color: #1ABC9C;
+    background-color: #b4b7b7;
+    padding: 3px;
+}
+.navbar .navbar-container .navbar-items ul li a{
+    font-style: unset;
+    transition: all 1.3s ease-out;
+}
+.navbar .navbar-container .navbar-items ul li a:hover{
+    background-color: var(--secondry-color);
+    padding: 10px;
+    border-radius: 20px;
+}
+/* End Navbar Style */
+
+.container{
+    width: 75;
+    margin: 0 auto;
+}
+
+/* Showcase */
+.showcase{
+    color: rgb(121, 226, 41);
+    /* background-image: url(../assets/images/pixels-1275701_960_720.jpg); */
+    text-align: center;
+    padding-top: 20px;
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.showcase h2{
+    font-size: 3.4rem;
+}
+
+.showcase hr , 
+.about hr , 
+.skills hr , 
+.account hr{
+    width: 10%;
+    margin: 16px auto;
+    border: 2px solid var(--secondry-color);
+    background-color: var(--secondry-color);
+}
+.showcase p ,
+.about p{
+    font-size: 1.8rem;
+    width: 60%;
+    margin: 5px auto;
+}
+.showcase button , 
+.about button {
+    padding:14px ;
+    margin-top: 15px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    transition: all 1.6s ease-in;
+}
+
+.showcase button:hover ,
+.about button:hover {
+    color: #1ABC9C;
+    border: none;
+    background-color: rgb(126, 70, 70);
+
+}
