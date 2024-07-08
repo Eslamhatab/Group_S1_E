@@ -1,0 +1,52 @@
+@import url('./vraiables.css');
+@import url('./utilites.css');
+
+
+/* Start Navbar */
+.navbar{
+    width: 75%;
+    border-bottom: 2px solid;
+    border-color:cyan;
+    border-radius: 1rem;
+    margin-left: 14rem;
+    background-color: var(--bg-dark);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+.navbar .navbar-items ul li{
+    display:inline-block;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-around; 
+}
+
+section .row{
+    margin-top: 4rem;
+    display: flex;
+}
+section .row .col{
+    background-color: var(--light-color);
+    padding: 1.6rem 2rem 4rem 1.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 1.8rem;
+    box-shadow: -1px -1px 1px purple;
+}
+
+
+
+section .row .col h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+section .row .col p{
+    font-size: 2rem;
+    font-style: inherit;
+}
