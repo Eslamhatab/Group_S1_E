@@ -26,3 +26,10 @@ a:hover{
     border: 2px solid;
     border-radius: 10px;
 }
+section .row .col button{
+    padding: 1rem;
+    background-color: var(--bg-dark);
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+}

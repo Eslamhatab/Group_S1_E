@@ -1,14 +1,25 @@
 @import url('./vraiables.css');
 @import url('./utilites.css');
 
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--bg-dark);
+    /* opacity: px; */
+}
 /* Start Navbar */
 .navbar{
     width: 75%;
-    border-bottom: 2px solid;
+    border: 2px solid;
     border-color:cyan;
     border-radius: 1rem;
     margin-left: 14rem;
+    margin-top: 10px;
+    box-shadow: 5px 10px 20px 10px chartreuse;
     background-color: var(--bg-dark);
     padding: 1rem;
     position: sticky;
@@ -38,7 +49,13 @@ section .row .col{
     box-shadow: -1px -1px 1px purple;
 }
 
-
+section .row .col:nth-child(1){
+    position: relative;
+    top: 7rem;
+    left: 7rem;
+    z-index: -1;
+    position: relative;
+}
 
 section .row .col h2{
     font-size: 2rem;
@@ -49,4 +66,5 @@ section .row .col h2{
 section .row .col p{
     font-size: 2rem;
     font-style: inherit;
+    margin-right: 30px;
 }
