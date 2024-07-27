@@ -98,15 +98,19 @@ let employeeSalary = [10000  , 20000 , 30000] ,
         doubleSalary.push(emp * 2)
     }
 
+
+    // var number= prompt("enter Your Number")
+    // if()
+
+
+
+
     /**
      * Tasks Home Work
      * 1-Check The Number Is Even or Odd 
      * 2-Compute Circle Area and Circumference
      * 3-print the sum of two numbers 
-     * 4-6- check from two given integers, whether one is positive and
+     * 4-check from two given integers, whether one is positive and
         another one is negative.
-     * 
-     * 
-     * 
-     * 
+        5- Reverse String for example welcome => emoclew 
      */
